@@ -7,5 +7,8 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h1:hover{
-    color: rgba(0, 255, 234, 0.753);
+    transform: scale(1.15);
+}
+.icones:hover, .github:hover, .discord:hover, .mail:hover{
+    transform: scale(1.15);
 }
