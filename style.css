@@ -6,3 +6,6 @@ h1 {
     font-size: 14em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+h1:hover{
+    color: rgba(0, 255, 234, 0.5);
+}
