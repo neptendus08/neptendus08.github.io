@@ -5,10 +5,16 @@ body {
 h1 {
     font-size: 14em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition-property: transform;
+    transition-duration: 1000ms;
 }
 h1:hover{
     transform: scale(1.15);
 }
-.icones:hover, .github:hover, .discord:hover, .mail:hover{
+.github, .discord, .mail {
+    ransition-property: transform;
+    transition-duration: 500ms;
+}
+.github:hover, .discord:hover, .mail:hover{
     transform: scale(1.15);
 }
