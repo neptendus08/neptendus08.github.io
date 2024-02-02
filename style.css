@@ -12,7 +12,7 @@ h1:hover{
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 .github, .discord, .mail {
-    transition: transform 400ms;
+    transition: transform 300ms;
 }
 .github:hover, .discord:hover, .mail:hover{
     transform: scale(1.15);
