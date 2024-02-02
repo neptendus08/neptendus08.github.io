@@ -9,7 +9,7 @@ h1 {
 }
 h1:hover{
     transform: scale(1.15);
-    text-shadow: 10px 10px 6px rgba(0, 0, 0, 0.5);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 .github, .discord, .mail {
     transition: transform 400ms;
