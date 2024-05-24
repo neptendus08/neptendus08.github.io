@@ -1,14 +1,15 @@
 body {
-    background: linear-gradient(90deg, #a6ff00, #ffc400);
+    background: #FEB139;
     text-align: center;
+    color: #000000;
 }
 h1 {
-    font-size: 14em;
+    font-size: 12em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     transition: transform 800ms;
 }
 h1:hover{
-    transform: scale(1.15);
+    transform: scale(1.05);
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 .github, .discord, .mail {
@@ -16,4 +17,53 @@ h1:hover{
 }
 .github:hover, .discord:hover, .mail:hover{
     transform: scale(1.15);
+}
+
+header {
+    background-color: #143F6B;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #F55353;
+}
+
+.contact .btn {
+    background-color: #1C4B82;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact .btn:hover {
+    background-color: #F55353;
 }
